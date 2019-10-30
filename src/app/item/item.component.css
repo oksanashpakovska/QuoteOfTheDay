@@ -1,0 +1,46 @@
+.quotes__card:nth-child(n+1) .quote {
+  border: 5px solid #7b64b4;
+  color: #7b64b4;
+}
+.quote {
+  border-radius: 10px;
+  padding: 20px 50px 20px 20px;
+  margin: auto;
+  background-color: #fff;
+  width: 80%;
+}
+.quote__text {
+  margin: 0 0 10px 0;
+  font-family: Arial;
+  }
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 1px 1px 1px 1px;
+    font-weight: bold;
+  }
+  .quotes__card {
+    width: 100%;
+  }
+  div {
+    display: block;
+  }
+  .quote .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+  }
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
